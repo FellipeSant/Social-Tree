@@ -6,7 +6,7 @@
 }
 :root{
     --hub--: 270;
-    --body-bg-color: hsl(var(--hub--) 60%, 98%);
+    --body-bg-color: hsl(var(--hub--), 60%, 98%);
     --purple: hsl(var(--hub--), 50%, 73%);
 
 
@@ -45,10 +45,10 @@ header {
     margin-right: auto;
     margin-left: auto;
 }
-/*---- GIRL ---------------------------------------------*/
+/*---- HOME ---------------------------------------------*/
 
 
-#home img {
+#home svg {
     
     background: url("./Image/garota-negra-olhando-para-o-lado.png") no-repeat center ;
 
@@ -59,6 +59,10 @@ header {
     margin-top: 12rem;
 
 } 
+
+#home svg circle{
+    stroke: var(--purple);
+}
 
 #home a{
     text-decoration: none;
